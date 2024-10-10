@@ -28,7 +28,7 @@ metadata:
   name: reactjs-service
   namespace: mernstack
 spec:
-  type: ClusterIP # Change to LoadBalancer for external access if needed
+  type: ClusterIP
   ports:
     - protocol: TCP
       port: 80
